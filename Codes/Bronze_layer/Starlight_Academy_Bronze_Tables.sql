@@ -161,7 +161,7 @@ Select
 		Average_Mark,
 		Overall_Result
 from [Bronze].[Starlight_Academy_200_dirty_records]
-where grade = 11
+where grade = '11'
 go
 
 if not exists (select 1 from sys.tables t join sys.schemas s on t.schema_id=s.schema_id
@@ -203,3 +203,9 @@ Select
 from [Bronze].[Starlight_Academy_200_dirty_records]
 where grade like '%12%'
 go
+
+Select * from [Starlight_Academy_STG].[Bronze].[starlight_academy_marks_grd8]
+Select * from [Starlight_Academy_STG].[Bronze].[starlight_academy_marks_grd9]
+Select * from [Starlight_Academy_STG].[Bronze].[starlight_academy_marks_grd10]
+Select * from [Starlight_Academy_STG].[Bronze].[starlight_academy_marks_grd11]
+Select * from [Starlight_Academy_STG].[Bronze].[starlight_academy_marks_grd12]
