@@ -4,7 +4,7 @@
 
 This project is a **data engineering practice project** focused on learning and applying basic **data cleaning techniques** using the **Medallion Architecture**.
 
-The dataset contains Grade 9 student marks from **Starlight Academy**. The purpose of the project is to identify and correct common data quality issues before the data is used for analysis.
+The dataset contains Grade 8-12 student marks from **Starlight Academy**. The purpose of the project is to identify and correct common data quality issues before the data is used for analysis.
 
 This project is intentionally focused on **basic data cleaning and transformation**, rather than building a complex data pipeline.
 
